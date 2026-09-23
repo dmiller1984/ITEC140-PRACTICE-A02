@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" role="img" aria-labelledby="title desc">
+  <title id="title">Practice-only concession register layout wireframe</title>
+  <desc id="desc">Food labels and buttons in two columns on the left, receipt ListBox on the right, and total controls below it with overlapping five-percent and seven-percent result panels.</desc>
+  <rect width="980" height="620" fill="#f7f8fa"/>
+  <rect x="40" y="40" width="900" height="530" rx="8" fill="#ffffff" stroke="#27364a" stroke-width="3"/>
+  <rect x="40" y="40" width="900" height="48" rx="8" fill="#e9edf2"/>
+  <text x="65" y="72" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#17202a">PRACTICE ONLY — Concession Register Tax Toggle</text>
+  <text x="65" y="115" font-family="Arial, sans-serif" font-size="14" fill="#4d5b6a">Food grid: two items per row</text>
+
+  <g font-family="Arial, sans-serif" font-size="16" fill="#17202a">
+    <text x="75" y="155">Pizza</text><text x="250" y="155">Salad</text>
+    <text x="75" y="245">Coffee</text><text x="250" y="245">Latte</text>
+    <text x="75" y="335">Sandwich</text><text x="250" y="335">Pasta</text>
+    <text x="75" y="425">Sauce</text><text x="250" y="425">Water</text>
+  </g>
+  <g fill="#eef1f5" stroke="#66788a" stroke-width="2">
+    <rect x="70" y="168" width="120" height="44"/><rect x="245" y="168" width="120" height="44"/>
+    <rect x="70" y="258" width="120" height="44"/><rect x="245" y="258" width="120" height="44"/>
+    <rect x="70" y="348" width="120" height="44"/><rect x="245" y="348" width="120" height="44"/>
+    <rect x="70" y="438" width="120" height="44"/><rect x="245" y="438" width="120" height="44"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#17202a">
+    <text x="130" y="196">$1.99</text><text x="305" y="196">$2.99</text>
+    <text x="130" y="286">$1.99</text><text x="305" y="286">$5.99</text>
+    <text x="130" y="376">$10.00</text><text x="305" y="376">$5.49</text>
+    <text x="130" y="466">$0.50</text><text x="305" y="466">$1.10</text>
+  </g>
+
+  <rect x="430" y="125" width="450" height="285" fill="#ffffff" stroke="#66788a" stroke-width="2"/>
+  <text x="450" y="158" font-family="Arial, sans-serif" font-size="17" fill="#7b8794">Receipt ListBox</text>
+  <text x="450" y="190" font-family="Arial, sans-serif" font-size="14" fill="#a0a9b2">Purchased items appear here</text>
+
+  <rect x="430" y="430" width="220" height="42" fill="#eef1f5" stroke="#66788a" stroke-width="2"/>
+  <text x="540" y="456" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#17202a">Total</text>
+  <text x="680" y="456" font-family="Arial, sans-serif" font-size="18" fill="#17202a">$0.00</text>
+
+  <rect x="430" y="492" width="220" height="42" fill="#eef1f5" stroke="#66788a" stroke-width="2"/>
+  <text x="540" y="518" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#17202a">Total Tax / Switch</text>
+
+  <rect x="670" y="482" width="210" height="70" rx="6" fill="#fff4f4" stroke="#c93636" stroke-width="2"/>
+  <text x="685" y="505" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#c93636">5% mode panel</text>
+  <text x="685" y="528" font-family="Arial, sans-serif" font-size="14" fill="#c93636">Tax: $0.00  Total: $0.00</text>
+  <path d="M905 516 L930 516" stroke="#355c9a" stroke-width="3" stroke-dasharray="5 5"/>
+  <text x="900" y="478" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#355c9a">7% panel overlaps here</text>
+  <text x="490" y="588" font-family="Arial, sans-serif" font-size="14" fill="#4d5b6a">Exactly one result panel is visible at a time.</text>
+</svg>
+
